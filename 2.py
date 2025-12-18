@@ -29,7 +29,7 @@ def solve():
         # Check if the ruleKey is valid
         if ruleKey not in key_map:
             print(0)
-            return
+            return 
 
         rule_index = key_map[ruleKey]
         count = 0
